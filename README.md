@@ -1,30 +1,27 @@
-Rule-Based AI Chatbot — DecodeLabs Project 1 🤖
+# Rule-Based AI Chatbot — DecodeLabs Project 1 🤖
 
-Author: Hammad Bhatti
-Batch: 2026
-Internship: DecodeLabs
-Project: Artificial Intelligence — Project 1
+**Author:** Hammad Bhatti  
+**Batch:** 2026  
+**Internship:** DecodeLabs  
+**Project:** Artificial Intelligence — Project 1
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project implements a simple rule-based AI chatbot in Python.
+This project implements a simple **rule-based AI chatbot** in Python.
 
-It follows the DecodeLabs Project 1 requirements by using explicit if-else control flow, handling greetings and exit commands, and running a continuous conversation loop.
+It follows the DecodeLabs Project 1 requirements by using explicit **if-else control flow**, handling greetings and exit commands, and running a continuous conversation loop.
 
-🎯 Objectives
+## 🎯 Objectives
 
-Handle greeting commands
+- Handle greeting commands
+- Handle exit commands
+- Use `if`, `elif`, and `else` decision-making logic
+- Run in a continuous interaction loop
+- Demonstrate basic rule-based AI concepts
 
-Handle exit commands
+## 🧠 How It Works
 
-Use if, elif, and else decision-making logic
-
-Run in a continuous interaction loop
-
-Demonstrate basic rule-based AI concepts
-
-🧠 How It Works
-
+```text
 User Input → Normalize → Check Rules → Generate Response
                          ↓
                     Exit command?
@@ -32,76 +29,83 @@ User Input → Normalize → Check Rules → Generate Response
                    Yes         No
                     ↓          ↓
                    End       Continue
+```
 
 The chatbot uses predefined rules rather than machine learning or external APIs.
 
-💬 Supported Inputs
+## 💬 Supported Inputs
 
-Greetings
-
+**Greetings**
+```text
 hi
 hello
 hey
 salam
 assalam o alaikum
+```
 
-Conversation
-
+**Conversation**
+```text
 what is your name?
 who are you?
 how are you?
+```
 
-Help
-
+**Help**
+```text
 help
 what can you do?
+```
 
-Project information
-
+**Project information**
+```text
 tell me about decodelabs
 what is project 1?
+```
 
-Exit
-
+**Exit**
+```text
 bye
 goodbye
 exit
 quit
+```
 
-🛠️ Technology
+## 🛠️ Technology
 
-Python 3
+- Python 3
+- `if` / `elif` / `else`
+- `while` loop
+- Functions
+- String processing
+- Console input/output
+- No third-party packages required
 
-if / elif / else
+## 📁 Project Structure
 
-while loop
-
-Functions
-
-String processing
-
-Console input/output
-
-No third-party packages required
-
-📁 Project Structure
-
+```text
 DecodeLabs-AI-Project1/
 ├── chatbot.py
 └── README.md
+```
 
-🚀 How to Run
+## 🚀 How to Run
 
 Check Python:
 
+```bash
 python --version
+```
 
 Run the chatbot:
 
+```bash
 python chatbot.py
+```
 
-🧪 Example Run
+## 🧪 Example Run
 
+```text
 ==========================================================
 🤖 DecodeBot — Rule-Based AI Chatbot
 Type 'bye', 'exit', or 'quit' to end the conversation.
@@ -117,62 +121,38 @@ DecodeBot: I'm doing great! Thanks for asking. 😊
 
 You: bye
 DecodeBot: Goodbye! 👋 Thanks for chatting with DecodeBot.
+```
 
-✅ Validation
+## ✅ Validation
 
 The code was validated for:
 
-Python syntax
-
-Greeting handling
-
-Basic conversation
-
-Help handling
-
-Unknown-input fallback
-
-Exit command handling
-
-Continuous-loop termination
+- Python syntax
+- Greeting handling
+- Basic conversation
+- Help handling
+- Unknown-input fallback
+- Exit command handling
+- Continuous-loop termination
 
 No external dependencies are required.
 
-📚 DecodeLabs Requirement Mapping
+## 📚 DecodeLabs Requirement Mapping
 
-Requirement
+| Requirement | Implementation |
+|---|---|
+| Handle greetings | Greeting rules |
+| Handle exit commands | `bye`, `goodbye`, `exit`, `quit` |
+| Use if-else logic | `if` / `elif` / `else` |
+| Continuous loop | `while True` |
+| Control flow | Conditional decision-making |
+| Basic AI concepts | Predefined rule-based responses |
 
-Implementation
+## 👨‍💻 Author
 
-Handle greetings
-
-Greeting rules
-
-Handle exit commands
-
-bye, goodbye, exit, quit
-
-Use if-else logic
-
-if / elif / else
-
-Continuous loop
-
-while True
-
-Control flow
-
-Conditional decision-making
-
-Basic AI concepts
-
-Predefined rule-based responses
-
-👨‍💻 Author
-
-Hammad Bhatti
+**Hammad Bhatti**  
 Batch 2026 — DecodeLabs AI Internship
 
-📌 Project Status
+## 📌 Project Status
 
-Completed and Tested ✅
+**Completed and Tested ✅**
